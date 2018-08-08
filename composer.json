@@ -1,0 +1,36 @@
+{
+  "name": "gigantier/php-sdk",
+  "description": "SDK for Gigantier API",
+  "authors": [
+    {
+      "name": "gigantier",
+      "email": "support@gigantier.com",
+      "homepage": "https://www.gigantier.com",
+      "role": "Vendor"
+    }
+  ],
+  "support": {
+    "email": "support@gigantier.com",
+    "issues": "http://github.com/gigantier/php-sdk/issues",
+    "source": "http://github.com/gigantier/php-sdk"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5.0",
+    "guzzlehttp/guzzle": "~6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7",
+    "donatj/mock-webserver": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gigantier\\": "src/"
+    }
+  },
+  "autoload-dev" : {
+    "psr-4": {
+      "Gigantier\\SDK\\Tests\\" : "tests/"
+    }
+  }
+}

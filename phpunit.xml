@@ -1,0 +1,22 @@
+<phpunit
+  bootstrap="vendor/autoload.php"
+  backupGlobals="false"
+  backupStaticAttributes="false"
+  colors="true"
+  convertErrorsToExceptions="true"
+  convertNoticesToExceptions="true"
+  convertWarningsToExceptions="true"
+  processIsolation="false"
+  stopOnFailure="false"
+  stderr="true">
+  <testsuites>
+      <testsuite name="Gigantier PHP SDK Test Suite">
+          <directory>./tests/</directory>
+      </testsuite>
+  </testsuites>
+  <filter>
+      <whitelist processUncoveredFilesFromWhitelist="true">
+          <directory suffix=".php">./src</directory>
+      </whitelist>
+  </filter>
+</phpunit>
