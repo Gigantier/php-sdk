@@ -1,6 +1,7 @@
 {
   "name": "gigantier/php-sdk",
   "description": "SDK for Gigantier API",
+  "license": "MIT",
   "authors": [
     {
       "name": "gigantier",
