@@ -86,7 +86,7 @@ if ($response->isError()) {
 
 ## Test
 
-Before running the test execute:
+Before running the tests execute:
 
 ```bash
 composer install
