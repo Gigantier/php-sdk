@@ -9,4 +9,4 @@ branches:
 before_install:
   - travis_retry composer self-update
   - composer install
-script: vendor/bin/phpunit --exclude-group FITS --bootstrap vendor/autoload.php tests
+script: vendor/bin/phpunit
