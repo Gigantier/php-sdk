@@ -1,5 +1,7 @@
 # Gigantier PHP SDK
 
+[![build](https://travis-ci.org/Gigantier/php-sdk.svg?branch=master)](https://travis-ci.org/Gigantier/php-sdk)
+
 > SDK to connect your PHP app to Giganter API.
 
 ## Installation
